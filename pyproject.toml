@@ -1,0 +1,40 @@
+[project]
+name = "campus-runner"
+version = "1.0.0"
+description = "校园跑助手 — 雷电模拟器 GPS 位置模拟工具"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11,<3.14"
+authors = [
+    { name = "CampusRunner Contributors" }
+]
+keywords = ["gps", "location", "simulator", "android", "campus", "running"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "customtkinter>=5.0",
+    "tkintermapview>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=6.0",
+]
+
+[project.scripts]
+campus-runner = "main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]

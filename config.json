@@ -1,0 +1,15 @@
+{
+  "adb_path": "D:/op/adb.exe",
+  "device_addr": "emulator-5554",
+  "emulator_console_port": 5554,
+  "default_speed_kmh": 10,
+  "update_interval_ms": 1500,
+  "gps_jitter_meters": 2.0,
+  "ldplayer_path": "D:/leidian/LDPlayer9",
+  "center_lat": 39.9923,
+  "center_lng": 116.3264,
+  "last_route": "",
+  "amap_api_key": "",
+  "default_origin": "",
+  "default_destination": ""
+}

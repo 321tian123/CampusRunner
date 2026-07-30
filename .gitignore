@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Release (too large for git, use GitHub Releases)
+release/CampusRunner.exe
+
+# Logs
+*.log
+
+# Temp
+/tmp/
+*.tmp
